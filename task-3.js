@@ -17,7 +17,7 @@ const images = [
 ];
 
 const galleryRef = document.getElementById('gallery')
-console.log(galleryRef)
+// console.log(galleryRef)
 
 // let itemRef = document.createElement('li')
 
