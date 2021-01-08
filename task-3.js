@@ -21,7 +21,7 @@ const galleryRef = document.getElementById("gallery");
 
 const galleryList = images.map(
   (image) => `<li><img src="${image.url}" alt="${image.alt}"></li>`
-).join(",");
+).join("");
 // console.log(galleryList);
 // galleryList.join(",");
 galleryRef.insertAdjacentHTML("beforeend", galleryList);
